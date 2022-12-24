@@ -8,6 +8,9 @@ import { TablaUsuariosComponent } from './tabla-usuarios/tabla-usuarios.componen
   ],
   imports: [
     CommonModule
+  ],
+  exports:[
+    TablaUsuariosComponent
   ]
 })
 export class UsuariosModule { }
